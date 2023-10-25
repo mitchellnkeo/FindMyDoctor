@@ -6,7 +6,7 @@ import dotenv from "dotenv"
 dotenv.config();
 
 const app = express();
-const { port, DATABASE_URL } = process.env;
+const { PORT, DATABASE_URL } = process.env;
 
 const client = new pg.Client({
     connectionString: DATABASE_URL
@@ -50,5 +50,5 @@ app.patch("/providers/:id", (req, res) => {
     })
 })
 
-app.listen(port, () => {
-console.log(`Server is listening on port: ${ port }`)});
+app.listen(process.env.PORT, () => {
+console.log(`Server is listening on port: ${ process.env.PORT }`)});

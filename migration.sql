@@ -49,4 +49,4 @@ CREATE TABLE healthcareProvider (
 --     provider_id SERIAL FOREIGN KEY
 -- );
 
---postgres://findmydoctor_user:wopnk09Fz0WrHx1RFDPRB1mJPkhbueja@dpg-cks6c2h0at9c73ahhad0-a.oregon-postgres.render.com/findmydoctor
+-- postgres://findmydoctor_user:wopnk09Fz0WrHx1RFDPRB1mJPkhbueja@dpg-cks6c2h0at9c73ahhad0-a.oregon-postgres.render.com/findmydoctor
