@@ -35,7 +35,6 @@ fetch("/providers").then((response) => {
     generateTable(providerArray)
 })
 
-
 // Search bar function
 
 fetch("/providers").then((response) => {
